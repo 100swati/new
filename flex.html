@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html> 
+<head>
+ <title> Question 2 </title> 
+ <style>
+ .cls{
+ font-family: Fantasy; text-align : center;
+ } 
+ul
+ { 
+display: flex; 
+flex-wrap: wrap;
+} 
+li {
+ height: 40vh; 
+flex-grow: 1;
+}
+ li:last-child { 
+flex-grow: 10;
+}
+img { 
+max-height: 100%; min-width: 100%; 
+object-fit: cover; vertical-align: bottom;
+}
+@media (max-aspect-ratio: 1/1) { 
+li {
+ height: 30vh; 
+}
+}@media (max-height: 480px) 
+{ 
+li {
+ height: 80vh; 
+}
+}
+@media (max-aspect-ratio: 1/1) and (max-width: 480px) { 
+ul { 
+flex-direction: row;
+ } 
+li {
+ height: auto; 
+width: 100%; 
+} 
+img { 
+width: 100%; 
+max-height: 85vh; 
+min-width: 0;
+ }
+} </style> 
+</head> 
+<body> 
+<h1 class = "cls">Flex with Nature and Birds images...........!!!</h1>
+<ul> 
+   <li><img src="birds1.jpg" width = 250 height = 250 alt=""> </li>
+   <li><img src="nature1.jpg" width = 250 height = 250 alt=""> </li> 
+   <li><img src="birds2.jpg" width = 250 height = 250 alt=""> </li>
+   <li><img src="nature2.jpg" width = 250 height = 250 alt=""> </li> 
+   <li><img src="birds3.jpg" width = 250 height = 250 alt=""></li>
+   <li><img src="nature3.jpg" width = 250 height = 250 alt=""> </li> 
+   <li><img src="birds4.jpg" width = 250 height = 250 alt=""> </li>
+   <li><img src="nature4.jpg" width = 250 height = 250 alt=""> </li> 
+</ul>
+</body>
+</html>
