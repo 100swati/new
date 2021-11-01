@@ -1,0 +1,1 @@
+console.log("This message is in javascript file!! Javascript file has been added!!");
